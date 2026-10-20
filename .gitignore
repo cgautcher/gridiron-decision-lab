@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Yahoo Fantasy API tokens & credentials
+.env
+.env.*
+*.env
+private.json
+token.json
+oauth.json
+*secret*
+*credentials*
+
+# Jupyter / Data Science
+.ipynb_checkpoints/
+*.csv
+*.sqlite3
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
