@@ -1,6 +1,6 @@
-# Yahoo Fantasy Football Research & Decision Support
+# Gridiron Decision Lab
 
-A personal sports analytics and research toolkit leveraging the Yahoo Fantasy Sports API for lineup optimization, waiver wire recommendations, matchup simulations, and pick'em strategy modeling.
+A personal sports analytics and research toolkit for fantasy football lineup optimization, waiver wire recommendations, matchup simulations, and pick'em strategy modeling.
 
 ## Features
 - **Roster & Lineup Analytics**: Analyze historical and projected player scores to suggest optimal weekly starting lineups.
@@ -8,11 +8,10 @@ A personal sports analytics and research toolkit leveraging the Yahoo Fantasy Sp
 - **Pick'em Decision Modeling**: Data-driven win-probability modeling for weekly pick'em leagues.
 
 ## Setup
-1. Apply for API access on the [Yahoo Developer Network](https://developer.yahoo.com/apps/create/).
-2. Obtain your **Client ID** and **Client Secret**.
-3. Create a `.env` file (do not commit this file):
+1. Obtain your OAuth2 **Client ID** and **Client Secret**.
+2. Create a `.env` file (do not commit this file):
    ```env
-   YAHOO_CLIENT_ID=your_client_id_here
-   YAHOO_CLIENT_SECRET=your_client_secret_here
-   YAHOO_REDIRECT_URI=https://localhost:8080
+   CLIENT_ID=your_client_id_here
+   CLIENT_SECRET=your_client_secret_here
+   REDIRECT_URI=https://localhost:8080
    ```
